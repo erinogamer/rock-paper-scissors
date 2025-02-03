@@ -16,4 +16,4 @@
         . . # . . 
         # # . # . 
         # # . . #
-        `</field></block></statement><next><block type="device_pause" id="}5v?t16XuFfe0YXLOSE5"><value name="pause"><shadow type="timePicker" id="(A}Id1V[|l(6uulCSob}"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id=",lj~wg9+2]I]EzUXHQ`2"></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="P?h}Yw8^RWj24wjDkGW7" x="-2" y="-6"></block></xml>
+        `</field></block></statement></block></next></block></statement></block><block type="pxt-on-start" id="P?h}Yw8^RWj24wjDkGW7" x="-2" y="-6"></block><block type="device_button_event" id="?0~[P*#Y=mz8_5m6g);n" x="1000" y="474"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_pause" id="}5v?t16XuFfe0YXLOSE5"><value name="pause"><shadow type="timePicker" id="(A}Id1V[|l(6uulCSob}"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id=",lj~wg9+2]I]EzUXHQ`2"></block></next></block></statement></block></xml>
