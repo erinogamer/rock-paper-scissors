@@ -1,19 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="mwVH3_v!RsKj.;pAdOf^">ruka</variable></variables><block type="device_show_leds" id="ez,@9ooZxBnF;S66NrLh" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="5" y="114"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="mwVH3_v!RsKj.;pAdOf^">ruka</variable></variables><block type="device_forever" id="77(hBs*Ik{#?NoZ*.2gJ" x="-4" y="-121"></block><block type="device_gesture_event" id="-*M^l.a9QY!s:Q90.}Y2" x="380" y="-116"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="gAXJ{U5*A.F=[Lntg/!L"><field name="VAR" id="mwVH3_v!RsKj.;pAdOf^">ruka</field><value name="VALUE"><shadow type="math_number" id="+{zephb16L_+ghLE+]X0"><field name="NUM">0</field></shadow><block type="device_random" id="(~zdC*nvtzT/]Byu!+!g"><value name="min"><shadow type="math_number" id="[UVXENKdEwF+O(-28)j/"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="E@G0V$BN4X$T#5W=_5T{"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="ev;vJ?7[I(-.R}ahjI+D"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="6$IXk8{N-1yL.wpYe(mb"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="+/4ZW|Yp^;J!;C0jlKP-"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="Z0^ZYRv}ed.!mCkODD=u"><field name="NUM">0</field></shadow><block type="variables_get" id="u]zn5^3+:7ED(=6B?jE`"><field name="VAR" id="mwVH3_v!RsKj.;pAdOf^">ruka</field></block></value><value name="B"><shadow type="math_number" id="}`35H@t8w*BIw??#P8_)"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="ez,@9ooZxBnF;S66NrLh"><field name="LEDS">`
         . . . . . 
         . # # # . 
         . # # # . 
         . # # # . 
         . . . . .
-        `</field></block><block type="pxt-on-start" id="P?h}Yw8^RWj24wjDkGW7" x="728" y="124"></block><block type="device_forever" id="77(hBs*Ik{#?NoZ*.2gJ" x="943" y="122"></block><block type="device_gesture_event" id="-*M^l.a9QY!s:Q90.}Y2" x="342" y="260"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="gAXJ{U5*A.F=[Lntg/!L"><field name="VAR" id="mwVH3_v!RsKj.;pAdOf^">ruka</field><value name="VALUE"><shadow type="math_number" id="+{zephb16L_+ghLE+]X0"><field name="NUM">0</field></shadow><block type="device_random" id="(~zdC*nvtzT/]Byu!+!g"><value name="min"><shadow type="math_number" id="[UVXENKdEwF+O(-28)j/"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="E@G0V$BN4X$T#5W=_5T{"><field name="NUM">3</field></shadow></value></block></value></block></statement></block><block type="device_show_leds" id="|5JFJ=|9iOhBC-`EBes^" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="115" y="431"><field name="LEDS">`
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="v5$z83h9];Mr1|~e,:?]"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="-a;nn$[b3D5y~fyJ@P!f"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="Z0^ZYRv}ed.!mCkODD=u"><field name="NUM">0</field></shadow><block type="variables_get" id="}c8Km)Ben((zf=SLPKx_"><field name="VAR" id="mwVH3_v!RsKj.;pAdOf^">ruka</field></block></value><value name="B"><shadow type="math_number" id="6aD@:7(GL+3(u^L@`pIb"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="|5JFJ=|9iOhBC-`EBes^"><field name="LEDS">`
         # # # # # 
         # . . . # 
         # . . . # 
         # . . . # 
         # # # # #
-        `</field></block><block type="device_show_leds" id=":Bx^Qmlue@}ZoRSbR4tw" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="497" y="431"><field name="LEDS">`
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id=":Bx^Qmlue@}ZoRSbR4tw"><field name="LEDS">`
         # # . . # 
         # # . # . 
         . . # . . 
         # # . # . 
         # # . . #
-        `</field></block></xml>
+        `</field></block></statement></block></next></block></statement></block><block type="pxt-on-start" id="P?h}Yw8^RWj24wjDkGW7" x="-2" y="-6"></block></xml>
